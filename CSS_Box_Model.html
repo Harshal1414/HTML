@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: rgb(187, 103, 103);
+            border: 3px solid rgb(24, 48, 126);
+
+            /* we can set margin / padding for top bottom, left, right like this */
+            /* padding-top: 79px;
+            padding-bottom: 67px;
+            padding-left: 35px;
+            padding-right: 79px; */
+
+            /* padding: 19px 38px 46px 37px;  padding : top right bottom left */
+            /* padding : y(top/bottom)  x(left/right) */
+
+            padding : 34px 19px; 
+            margin: 14px 19px;
+            width: 480px;
+            border-radius: 23px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class = "container">
+        <h3>CSS BOX MODEL</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, facere deserunt, placeat eius voluptate atque aut voluptates iusto minima iure reprehenderit nulla error consequatur, dignissimos distinctio voluptatem ad animi quisquam sed! Adipisci, inventore temporibus!</p>
+    </div>
+
+    <div class = "container">
+        <h3>CSS BOX MODEL</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, facere deserunt, placeat eius voluptate atque aut voluptates iusto minima iure reprehenderit nulla error consequatur, dignissimos distinctio voluptatem ad animi quisquam sed! Adipisci, inventore temporibus!</p>
+    </div>
+
+    <div class = "container">
+        <h3>CSS BOX MODEL</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, facere deserunt, placeat eius voluptate atque aut voluptates iusto minima iure reprehenderit nulla error consequatur, dignissimos distinctio voluptatem ad animi quisquam sed! Adipisci, inventore temporibus!</p>
+    </div>
+</body>
+</html>
